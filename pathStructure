@@ -1,0 +1,45 @@
+src/
+│
+├── assets/           # Arquivos estáticos (imagens, fontes, etc.)
+│
+├── components/       # Componentes reutilizáveis
+│   ├── Button/
+│   │   ├── Button.jsx
+│   │   ├── Button.module.css
+│   │   └── index.js
+│   ├── Header/
+│   │   ├── Header.jsx
+│   │   ├── Header.module.css
+│   │   └── index.js
+│   └── ...
+│
+├── hooks/            # Hooks customizados
+│   └── useExampleHook.js
+│
+├── pages/            # Páginas do app
+│   ├── Home/
+│   │   ├── Home.jsx
+│   │   ├── Home.module.css
+│   │   └── index.js
+│   └── About/
+│       ├── About.jsx
+│       ├── About.module.css
+│       └── index.js
+|
+├── routes/          # Novo diretório para gerenciamento de rotas
+│   ├── AppRoutes.jsx  # Arquivo principal de configuração das rotas
+│   └── PrivateRoute.jsx  # (Opcional) Componente para rotas privadas
+│
+├── services/         # Comunicação com APIs e lógica de negócios
+│   └── api.js
+│
+├── store/            # Gerenciamento de estado (Redux, Zustand, etc.)
+│   └── index.js
+│
+├── styles/           # Estilos globais, temas, variáveis CSS
+│   └── global.css
+│
+├── utils/            # Funções utilitárias
+│   └── formatDate.js
+│
+└── main.jsx          # Ponto de entrada do app
